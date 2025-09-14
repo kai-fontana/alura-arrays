@@ -10,7 +10,7 @@ public class Main {
         Person person04 = new Person("Rafael", 48);
 
         //Creates the list of products
-        ArrayList<Person> listOfPeople = new ArrayList<Person>();
+        ArrayList<Person> listOfPeople = new ArrayList<>();
 
         //Add to the list
         listOfPeople.add(0, person01);
@@ -34,7 +34,7 @@ public class Main {
         PerishableProduct perishableProduct01 = new PerishableProduct("Meat", 10.00, 2, 2024);
 
         //Creates the list of products
-        ArrayList<Product> listOfProducts = new ArrayList<Product>();
+        ArrayList<Product> listOfProducts = new ArrayList<>();
 
         //Add to the list
         listOfProducts.add(0, product01);
